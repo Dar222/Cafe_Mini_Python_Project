@@ -35,5 +35,5 @@ if another_order == "YES":
         print(f"The Ordered item {item3} is not yet Ready\n")
 
 print("Your Order details are :", ', '.join(ordered_items))
-print("The Total Bill of ordered Items = ", order_total, "rs\n")
+print(f"The Total Bill of ordered Items = {order_total}rs",)
 print("\t\t   Thank You Visit Again..!")
